@@ -1,0 +1,231 @@
+#container{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    padding-left: 187px;
+    font-family: poppins;
+    
+}
+
+ 
+#firstBox{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#f_left_box{
+    /* border: 1px solid greenyellow; */
+    background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    
+}
+
+#f_left_box_inner{
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 62px;
+    padding: 10px;
+}
+
+.number p:first-child {
+    color: #800080;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}
+
+.number p:last-child{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+color: #000000;
+}
+#btn{
+    width: 180px;
+height: 40px;
+padding: 8px 16px;
+gap: 10px;
+background: #800080;
+border-radius: 20px;
+color :white;
+border: transparent;
+display: block;
+margin: auto;
+margin-top: 4%;
+margin-bottom: 4%;
+cursor: pointer;
+}
+
+
+#f_right_box{
+/* border: 1px solid red; */
+width: 40%;
+
+}
+#f_right_box p:first-child{
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;  
+color: #800080;
+}
+
+#f_right_box p:last-child{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5em;
+    color: #800080;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgb(143, 58, 58);
+  
+    text-align: center;
+    padding: 10px;
+     
+}
+
+#head{
+    margin: 3% 0%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #800080;
+}
+
+#listofitem{
+    display: flex;
+
+}
+
+.liststyle div:first-child{
+    width:65px ;
+    height: 65px;
+    /* border: 1px solid yellow; */
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.25);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.liststyle div:last-child{
+margin-left:30px;
+/* border: 1px solid fuchsia; */
+}
+
+.liststyle{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.liststyle div:last-child p:first-child{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.liststyle div:last-child p:last-child{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #4D4D4D;
+}
+
+#leftdiv,#rightdiv{
+    width: 40%;
+    /* border: 1px solid red; */
+}
+.liststyle div:last-child{
+    /* border: 1px solid red; */
+    width: 90%;
+}
+
+.lastlines{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+ 
+
+
+color: #800080;
+margin-top: 1%;
+  
+}
+
+ 
+
+@media screen and (min-width: 200px) and (max-width: 850px) {
+    #firstBox{
+        /* border: 1px solid red; */
+        width: 95%;
+        margin-top: 55px;
+        display: flex;
+    flex-direction: column;
+       
+    }
+    #f_right_box{
+        /* border: 1px solid red; */
+        width: 100%;
+        
+        }
+
+        #container{
+            width: 100%;
+            height: 100vh;
+            /* border: 1px solid green; */
+            padding-left: 8%;
+            font-family: poppins;
+        }   
+      
+
+        #listofitem{
+            display: flex;
+          flex-direction: column;       
+        }
+        #leftdiv,#rightdiv{
+            width: 94%;
+            /* border: 1px solid red; */
+        } 
+
+        .number p:last-child{
+            font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 38px;
+        color: #000000;
+        }
+   /* trying */
+   
+   #f_left_box_inner{
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 32px;
+    padding: 10px;
+}
+}
